@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2D2D2D;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.profile-card{
+    width: 330px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden; /* Agar gambar tidak keluar dari border-radius */
+    text-align: center; /* Pusatkan teks secara global */
+}
+.background-image img{
+    width: 100%;
+    border-radius: 20px;
+}
+.profile-account{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    align-items: flex-end;
+}
+.info-row{
+    display: flex;
+}
+.info-row2{
+    display: flex;
+}
+.likes p{
+    font-weight: 300;
+}
+.followers p{
+    font-weight: 300;
+}
+.post p{
+    font-weight: 300;
+}
