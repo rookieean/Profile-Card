@@ -17,20 +17,18 @@ body{
     width: 330px;
     background-color: white;
     border-radius: 20px;
-    overflow: hidden; /* Agar gambar tidak keluar dari border-radius */
-    text-align: center; /* Pusatkan teks secara global */
-
-    /* Tambahkan transition agar gerakannya halus */
+    overflow: hidden;
+    text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer; /* Mengubah kursor jadi tangan saat menyentuh kartu */
+    cursor: pointer;
 }
 .profile-photo img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 5px solid white; /* Memberi bingkai putih agar kontras */
+    border: 5px solid white;
     position: relative;
-    margin-top: -100px; /* Menarik foto ke atas 50% dari ukurannya */
+    margin-top: -100px;
 }
 .identity{
     padding: 10px 30px;
@@ -40,14 +38,14 @@ body{
 }
 .info-row{
     display: flex;
-    align-items: center; /* Ikon dan teks sejajar di tengah secara vertikal */
-    justify-content: center; /* Pusatkan di tengah kartu */
+    align-items: center;
+    justify-content: center;
     gap: 8px; /* Jarak antara ikon dan teks */
     margin-bottom: 5px;
     color: #666;
 }
 .icon {
-    width: 16px; /* Atur ukuran ikon agar tidak terlalu besar */
+    width: 16px; /* ukrn ikon */
 }
 .background-image img{
     width: 100%;
@@ -58,7 +56,7 @@ body{
     justify-content: space-around;
     padding-bottom: 20px;
     padding: 20px 0;
-    border-top: 1px solid #eee; /* Opsional: garis pembatas */
+    border-top: 1px solid #eee;
 }
 .info-row{
     display: flex;
@@ -75,8 +73,6 @@ body{
 .post p{
     font-weight: 300;
 }
-
-/* Efek saat kursor menyentuh kartu */
 .profile-card:hover {
     /* Mengangkat kartu sedikit ke atas (Y-axis) */
     transform: translateY(-10px); 
