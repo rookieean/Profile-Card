@@ -6,3 +6,6 @@ This project is a modern and responsive Profile Card web component built using H
 - HTML5 & CSS3
 
 # 📺 Demo
+
+https://github.com/user-attachments/assets/423c5dc4-9bf2-45bc-a4ab-140222293505
+
